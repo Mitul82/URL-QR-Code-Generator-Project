@@ -8,9 +8,7 @@ A simple and efficient tool to generate QR codes from URLs. Built with [Your Tec
 
 - 🔗 Input any valid URL
 - 📸 Instantly generate a downloadable QR code
-- 🎨 Customizable QR code styles (coming soon!)
 - 💾 Save QR codes as PNG images
-- 📱 Mobile-friendly interface
 
 ---
 
