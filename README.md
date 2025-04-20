@@ -14,7 +14,7 @@ A simple and efficient tool to generate QR codes from URLs. Built with [Your Tec
 
 ---
 
-##💡 Ideas for Improvement
+## 💡 Ideas for Improvement
 - Add QR style customizations (color, size, logo)
 - Support bulk QR generation
 - QR code history and download management
