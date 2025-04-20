@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WiFi QR Generator project</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="card">
+            <h1 class="title">URL Card Generator</h1>
+            <p class="subtitle">Create and share your website URL easily with anyone</p>
+            <div class="form">
+                <div class="input-group">
+                    <label for="URL">URL (Website Address):</label>
+                    <input type="text" id="SSID" placeholder="Enter the URL">
+                </div>
+                <button id="generate-qr" class="btn-primary" onClick="generateQRcode()">Gerate QR Code</button>
+            </div>
+            <div class="qr-container" id="qr-code-container"></div>
+            <div class="actions">
+                <button id="copy-btn" class="btn-secondary" onClick="copyCredentials()">Copy Credentials</button>
+                <button id="download-btn" class="btn-secondary" onClick="downloadQRcode()">Download QR</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.rawgit.com/neocotic/qrious/3.0.0/dist/qrious.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
